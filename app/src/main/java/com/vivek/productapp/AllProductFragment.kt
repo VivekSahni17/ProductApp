@@ -52,7 +52,7 @@ class AllProductFragment : Fragment() {
                     if (listData != null) {
 
                         mProductList?.addAll(listData.products)
-                       _binding?.recyclerView?.adapter = myDataAdapter
+                       
 
 
                     }
